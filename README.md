@@ -8,4 +8,4 @@ It has a basic numberpad, a "." to have decimal numbers and "+/-" to turn the la
 
 ## Examples
 <h4>Calculator</h4>
-<img src="https://i.imgur.com/llUbXtN.gif" width="300">
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/6CEA9Wf"  ><a href="//imgur.com/a/6CEA9Wf">calculator app</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
