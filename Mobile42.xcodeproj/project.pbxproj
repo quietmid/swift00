@@ -6,8 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1EABF6BF2E421BE90061AA6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EABF6BE2E421BE90061AA6A /* ContentView.swift */; };
+		1EABF6CF2E421F4E0061AA6A /* Ex00ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EABF6CE2E421F4E0061AA6A /* Ex00ContentView.swift */; };
+		1EABF6D12E4220CE0061AA6A /* Ex01ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EABF6D02E4220CE0061AA6A /* Ex01ContentView.swift */; };
+		1EABF6D32E4222180061AA6A /* Ex02ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EABF6D22E4222180061AA6A /* Ex02ContentView.swift */; };
+		1EBB20B22E4BCAD600DFB5AE /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 1EBB20B12E4BCAD600DFB5AE /* Algorithms */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		1EABF6B92E421BE90061AA6A /* Mobile42.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobile42.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EABF6BE2E421BE90061AA6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1EABF6CE2E421F4E0061AA6A /* Ex00ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex00ContentView.swift; sourceTree = "<group>"; };
+		1EABF6D02E4220CE0061AA6A /* Ex01ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex01ContentView.swift; sourceTree = "<group>"; };
+		1EABF6D22E4222180061AA6A /* Ex02ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex02ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EBB20B22E4BCAD600DFB5AE /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +45,10 @@
 		1EABF6B02E421BE90061AA6A = {
 			isa = PBXGroup;
 			children = (
+				1EABF6CB2E421CFE0061AA6A /* ex03 */,
+				1EABF6CA2E421CFA0061AA6A /* ex02 */,
+				1EABF6C92E421CF40061AA6A /* ex01 */,
+				1EABF6C82E421CED0061AA6A /* ex00 */,
 				1EABF6BB2E421BE90061AA6A /* Mobile42 */,
 				1EABF6BA2E421BE90061AA6A /* Products */,
 			);
@@ -43,6 +60,38 @@
 				1EABF6B92E421BE90061AA6A /* Mobile42.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1EABF6C82E421CED0061AA6A /* ex00 */ = {
+			isa = PBXGroup;
+			children = (
+				1EABF6BE2E421BE90061AA6A /* ContentView.swift */,
+				1EABF6CE2E421F4E0061AA6A /* Ex00ContentView.swift */,
+			);
+			path = ex00;
+			sourceTree = "<group>";
+		};
+		1EABF6C92E421CF40061AA6A /* ex01 */ = {
+			isa = PBXGroup;
+			children = (
+				1EABF6D02E4220CE0061AA6A /* Ex01ContentView.swift */,
+			);
+			path = ex01;
+			sourceTree = "<group>";
+		};
+		1EABF6CA2E421CFA0061AA6A /* ex02 */ = {
+			isa = PBXGroup;
+			children = (
+				1EABF6D22E4222180061AA6A /* Ex02ContentView.swift */,
+			);
+			path = ex02;
+			sourceTree = "<group>";
+		};
+		1EABF6CB2E421CFE0061AA6A /* ex03 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ex03;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -65,6 +114,7 @@
 			);
 			name = Mobile42;
 			packageProductDependencies = (
+				1EBB20B12E4BCAD600DFB5AE /* Algorithms */,
 			);
 			productName = Mobile42;
 			productReference = 1EABF6B92E421BE90061AA6A /* Mobile42.app */;
@@ -94,6 +144,9 @@
 			);
 			mainGroup = 1EABF6B02E421BE90061AA6A;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1EBB20B02E4BCAD600DFB5AE /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1EABF6BA2E421BE90061AA6A /* Products */;
 			projectDirPath = "";
@@ -119,6 +172,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EABF6D12E4220CE0061AA6A /* Ex01ContentView.swift in Sources */,
+				1EABF6BF2E421BE90061AA6A /* ContentView.swift in Sources */,
+				1EABF6D32E4222180061AA6A /* Ex02ContentView.swift in Sources */,
+				1EABF6CF2E421F4E0061AA6A /* Ex00ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,10 +329,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 2.5;
 			};
 			name = Debug;
@@ -311,10 +369,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 2.5;
 			};
 			name = Release;
@@ -341,6 +400,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1EBB20B02E4BCAD600DFB5AE /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1EBB20B12E4BCAD600DFB5AE /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1EBB20B02E4BCAD600DFB5AE /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1EABF6B12E421BE90061AA6A /* Project object */;
 }
