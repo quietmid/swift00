@@ -3,7 +3,7 @@
 ## Project:
 This project contains three assignments to start my journey in Swift. The first two assignments introduced to the contentView of Swift and some basic characteristic that I was able to alter and implement. There were examples of what my final product should look like. The third assignment is to build a basic calculator with operators "+", "-", "/" & "X".
 
-## Calculator
+## Calculator [ex02]
 It has a basic numberpad, a "." to have decimal numbers and "+/-" to turn the last number negative or positive. "AC" for reset both text fields and "C" to delete the last entered. It has a text field for working and result.
 
 ## Examples
